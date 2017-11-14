@@ -7,6 +7,11 @@ import './app.global.css';
 
 const store = configureStore();
 
+window.addEventListener('keydown', (event) => {
+  console.info('I will preventDefault me, but the main thread console should still output a message - but it does not')
+  event.preventDefault();
+}, false)
+
 render(
   <AppContainer>
     <Root store={store} history={history} />

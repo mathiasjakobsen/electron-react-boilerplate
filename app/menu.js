@@ -47,6 +47,7 @@ export default class MenuBuilder {
     const subMenuAbout = {
       label: 'Electron',
       submenu: [
+        { label: 'Test', accelerator: 'Space', click: () => { console.info('Space was clicked, and I was fired from a MenuItem') } },
         { label: 'About ElectronReact', selector: 'orderFrontStandardAboutPanel:' },
         { type: 'separator' },
         { label: 'Services', submenu: [] },
