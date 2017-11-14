@@ -8,7 +8,7 @@ export default class Home extends Component {
     return (
       <div>
         <div className={styles.container} data-tid="container">
-          <h2>Home</h2>
+          <h3>Please, try hitting space. The main thread should print a message from the MenuItem click handler, but it won\'t</h3>
           <p>Kazakhstan is the greatest country in the world. All other countries are run by little girls. Kazakhstan is number-one exporter of potassium. Other Central Asian countries have inferior potassium. Kazakhstan is the greatest country in the world. All other countries is the home of the gays...
 
 He is my neighbor Nursultan Tuliagby. He is pain in my assholes. I get a window from a glass, he must get a window from a glass. I get a step, he must get a step. I get a clock radio, he cannot afford. Great success!
